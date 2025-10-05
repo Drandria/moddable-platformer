@@ -28,6 +28,10 @@ window/size/window_width_override=960
 window/size/window_height_override=540
 window/stretch/mode="canvas_items"
 
+[editor]
+
+movie_writer/movie_file="/home/dina/Vidéos/Godot/platformer.mp4"
+
 [global_group]
 
 players=""
