@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dd5hkrcldmvcg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_muild"]
+size = Vector2(717, 28)
+
+[node name="invisiblePlatform" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(357.5, 4)
+shape = SubResource("RectangleShape2D_muild")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(355, 26)
+scale = Vector2(0.703125, 1)
+region_enabled = true
+region_rect = Rect2(131.236, 0, 1024.53, 70.0941)
